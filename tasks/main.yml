@@ -1,0 +1,6 @@
+---
+# tasks file for hosts
+- name: apply template to /etc/hosts
+  template:
+    src: hosts.j2
+    dest: /etc/hosts
